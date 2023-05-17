@@ -26,4 +26,10 @@ public class HelloController {
         return "Hello SpringBoot DSP";
     }
 
+    @RequestMapping("/dataSource")
+    public String toDataSource1(){
+        System.out.println(dataSourceProperties);
+        return "Hello SpringBoot DSP";
+    }
+
 }
